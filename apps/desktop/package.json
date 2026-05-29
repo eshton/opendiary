@@ -1,0 +1,12 @@
+{
+  "name": "@opendiary/desktop",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Open Diary desktop app (Tauri). Placeholder — see docs/features/0009.",
+  "scripts": {
+    "dev": "echo 'Desktop not scaffolded yet — see docs/features/0009-desktop-tauri.md'",
+    "build": "echo 'Desktop not scaffolded yet — see docs/features/0009-desktop-tauri.md'",
+    "typecheck": "echo 'no ts yet'"
+  }
+}

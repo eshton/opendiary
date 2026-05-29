@@ -1,0 +1,10 @@
+# Bun workspace config for Open Diary.
+# See https://bun.sh/docs/runtime/bunfig
+
+[install]
+# Hoist workspace deps; keep installs reproducible.
+exact = true
+
+[test]
+# Co-located *.test.ts files run via `bun test`.
+coverage = false

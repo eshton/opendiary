@@ -1,0 +1,26 @@
+{
+  "name": "@opendiary/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Open Diary local web server + UI. Binds 127.0.0.1 only.",
+  "scripts": {
+    "dev": "bun run --hot src/server.ts",
+    "start": "bun run src/server.ts",
+    "build": "bun run build.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@opendiary/core": "workspace:*",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@tanstack/react-query": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "bun-plugin-tailwind": "^0.0.15"
+  }
+}

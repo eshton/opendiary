@@ -1,0 +1,3 @@
+# Web app — enable Tailwind processing during HTML bundling (dev server + build).
+[serve.static]
+plugins = ["bun-plugin-tailwind"]

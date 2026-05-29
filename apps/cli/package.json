@@ -1,0 +1,20 @@
+{
+  "name": "@opendiary/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Open Diary command-line interface.",
+  "bin": {
+    "opendiary": "src/index.ts",
+    "od": "src/index.ts"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --compile --outfile dist/opendiary",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@opendiary/core": "workspace:*"
+  }
+}
